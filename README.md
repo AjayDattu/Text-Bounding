@@ -44,7 +44,7 @@ LinkRefiner | CTW1500 | - | Used with the General Model | [Click](https://drive.
 
 * Run with pretrained model
 ``` (with python 3.7)
-python test.py --trained_model=[weightfile] --test_folder=[folder path to test images]
+python test.py --trained_model ./model1.pth --test_folder ./text_image/
 ```
 
 The result image and socre maps will be saved to `./result` by default.
